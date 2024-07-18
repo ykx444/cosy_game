@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c00aa152668390f479e2303637de73c7, type: 3}
+  m_Name: 2
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: Lyn
+    characterSprite: {fileID: 21300000, guid: 96b83bc3876bc0247a16a7c7699d0c1a, type: 3}
+    sentence: So, what do you thing being a witch is about?
+    triggerChoice: 0
+  - characterName: You
+    characterSprite: {fileID: 21300000, guid: 82b3e58a9e899d84b8e3f71e3cf484d2, type: 3}
+    sentence: (thinking...)
+    triggerChoice: 1
+  choices:
+  - choiceText: Collecting spells?
+    nextDialogue: {fileID: 11400000, guid: 209220a7eae27ec488751ce22aec1153, type: 2}
+  - choiceText: Use magic to help others?
+    nextDialogue: {fileID: 11400000, guid: 6ce8f06410c07fc4aa8c5d15e7e22a6e, type: 2}
+  hasTutorial: 0
+  nextDialogue: {fileID: 0}

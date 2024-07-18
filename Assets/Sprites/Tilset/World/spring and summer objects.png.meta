@@ -1,0 +1,1374 @@
+fileFormatVersion: 2
+guid: 9a3a9fe58eef92b45accdde1b3aaa000
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spring and summer objects_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae1b8bfa22370574bbc5d1bd5eba30e3
+      internalID: 109957210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 148
+        width: 35
+        height: 60
+      alignment: 9
+      pivot: {x: 0.46553627, y: 0.17834193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8.5, y: -30}
+        - {x: -4.5, y: -8}
+        - {x: 3.5, y: -8}
+        - {x: 5.5, y: -30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e2113d8ce31ed4e92d6066016673d3
+      internalID: -169193490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_2
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 148
+        width: 35
+        height: 60
+      alignment: 9
+      pivot: {x: 0.47415248, y: 0.20347138}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8.5, y: -30}
+        - {x: -5.5, y: -8}
+        - {x: 3.5, y: -8}
+        - {x: 4.5, y: -29}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc648387a85073345a11e8e49ad1f5fe
+      internalID: 526836477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 160
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b339e9f95a8b6d4ba5d6294f9257a9e
+      internalID: 1970901491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_4
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 176
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5320e6a201945c4a8aaf3ed0e349a1e
+      internalID: 1319861836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_5
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 129
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b2a8c829c8fae438d6a9ee983c566d
+      internalID: -638001049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_6
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 129
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4f8ccf745f3144fbd1fc9c2d29bc79
+      internalID: 776116299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_7
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 113
+        width: 16
+        height: 30
+      alignment: 9
+      pivot: {x: 0.4623351, y: 0.1785937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d77af089c8d3b545831a8dffb17b282
+      internalID: -1873212669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_8
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 132
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8.5, y: -4}
+        - {x: -8.5, y: 5}
+        - {x: 6.5, y: 5}
+        - {x: 6.5, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c419f91dc3359bc4d91c077d5749b0f1
+      internalID: -173307604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 128
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e792f2e016738654d9a35cae74b3dd2b
+      internalID: 1318530249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_10
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 112
+        width: 22
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e538257464094cc46a1ab184f6df3e6d
+      internalID: -89153407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0594d21f9eb86834bb7088b767d70118
+      internalID: 1707487600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_12
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 113
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed729585e1d79b841bd8168b53de394d
+      internalID: -1592294528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_13
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 80
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6b56379d5b98b4c958f7ad097811f9
+      internalID: 627629205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_14
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 87
+        width: 31
+        height: 35
+      alignment: 9
+      pivot: {x: 0.4999995, y: 0.792938}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -15.5, y: 6.5}
+        - {x: -10.5, y: 17.5}
+        - {x: 10.5, y: 17.5}
+        - {x: 14.5, y: 7.5}
+      - - {x: -10.5, y: -13.5}
+        - {x: -10.5, y: 4.5}
+        - {x: 10.5, y: 5.5}
+        - {x: 11.5, y: -13.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920dad99b4adef04a9792731cf661b42
+      internalID: 737205712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_15
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 96
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb6adeed5ff4d8459d061589cc2b3d1
+      internalID: 102133865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_16
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 80
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a900e4c23ef2dc6449dbb7933b7d9f5d
+      internalID: 45012070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_17
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 4
+        width: 81
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -29.5, y: -35}
+        - {x: -35.5, y: 14}
+        - {x: -0.5, y: 42}
+        - {x: 32.5, y: 11}
+        - {x: 29.5, y: -34}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6cec717bc5344f48a51e451b66c44cc
+      internalID: 1963675687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_18
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 52
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -9.5, y: -4.5}
+        - {x: -9.5, y: 3.5}
+        - {x: 8.5, y: 3.5}
+        - {x: 8.5, y: -4.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff35ef376bcbbc046ab8958a0c750bff
+      internalID: 1186037691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_19
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 72
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8566598313a4f543b713ed3d841ebe1
+      internalID: -1408501026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_20
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 65
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0a9474942a7f5498547e32b82dc1ca
+      internalID: -1222712277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 71
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7915667751ad7234a9bcf522ae13a98d
+      internalID: 1130003558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_22
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 64
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed87afe45c65f94fba72ece16130e30
+      internalID: -1092740599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_23
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 65
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87dfd5942265054593a2ffd5c424f0a
+      internalID: -750020948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_24
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6dc11ccb9048cb49b41a2e6ce1fc33b
+      internalID: 771391233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_25
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f25b5179338a448b356690c1c3624f
+      internalID: 1002783195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_26
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 58
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5018fba9463f2c24582e2adfd241361a
+      internalID: 646350649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_27
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 48
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15fb05be0e6b65245b0e5f8afd7311b5
+      internalID: -699040349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_28
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 19
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01786004cceb48e4b922d51f3d28a773
+      internalID: -646987816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_29
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d27cfe081a2c04697d520617593cc6
+      internalID: 2082204641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_30
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 34
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbfc1a1d3e931ac4fa92387b4cf07f1a
+      internalID: 2059557027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_31
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f42ae9333ca2d45876fe0be1ffe121
+      internalID: 1730642724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_32
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 34
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c52b8f8d0542c4d832038fe1f0475f
+      internalID: -1599561657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_33
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 37
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c4303bc1d81c2448f73f1f640d7caa
+      internalID: -1998534025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_34
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 16
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f5a3e6aa1ae89478ce52711f900a19
+      internalID: 123402800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_35
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 16
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff19fa9be9e4b5d4da75a3501aacfe43
+      internalID: -1823968395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_36
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 16
+        width: 14
+        height: 12
+      alignment: 9
+      pivot: {x: 0.4898529, y: 0.38160816}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c943b768d3d74949a04a18876c30ba9
+      internalID: 304100642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_37
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 0
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e691adec06177924f9dc77689775e6de
+      internalID: -1559001708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_38
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 0
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e41d71a9ab73248b177db72b4850f8
+      internalID: 384031070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_39
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 0
+        width: 14
+        height: 15
+      alignment: 9
+      pivot: {x: 0.48838478, y: 0.38075972}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a40663781bec94d9709d092c223ec2
+      internalID: 2025960896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_40
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 113
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2c08888a03c2347bc1bd143c3759d2
+      internalID: -1304216680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_41
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 97
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5c2889e9106d8478e77026eeaf531c
+      internalID: -1511372020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_42
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f153fcf39a2d6604aa4dfeba1684a504
+      internalID: 1076796825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_43
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcbd6e525f8d01f478da5f3cb3077ab1
+      internalID: -761346476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc40585098cd3ee42a6fe2dcfc05ef65
+      internalID: -1560741864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7deb97ee4f3844d42bf289cb8bcec20f
+      internalID: -660192107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_46
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 160
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c643dd3646890064694d91e11ca267d8
+      internalID: -1407852777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_47
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 160
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccbb1d88778f6474494332793529ebe5
+      internalID: -1913108948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_48
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 176
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbcd58e2da502e4fa6c2a61b5469a99
+      internalID: 1451002199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_49
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 192
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e41bb797ebc934e977f016ab3beda4
+      internalID: -1057795396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_50
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88df9aa6b2583f144826763372afe79e
+      internalID: 1005351968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd37718b1b5392409ac20caf9ee71f5
+      internalID: 89143171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_52
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8051d445c315b294d8e27d7cc0a93567
+      internalID: 2121399737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_53
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 130
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d75eab3599bd054a865c8ec45f2822f
+      internalID: 1020670150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring and summer objects_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 130
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a274bddc8009645b88456936db6a30
+      internalID: 1356892796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      spring and summer objects_47: -1913108948
+      spring and summer objects_8: -173307604
+      spring and summer objects_6: 776116299
+      spring and summer objects_16: 45012070
+      spring and summer objects_12: -1592294528
+      spring and summer objects_46: -1407852777
+      spring and summer objects_44: -1560741864
+      spring and summer objects_20: -1222712277
+      spring and summer objects_18: 1186037691
+      spring and summer objects_5: -638001049
+      spring and summer objects_24: 771391233
+      spring and summer objects_10: -89153407
+      spring and summer objects_49: -1057795396
+      spring and summer objects_37: -1559001708
+      spring and summer objects_3: 1970901491
+      spring and summer objects_51: 89143171
+      spring and summer objects_7: -1873212669
+      spring and summer objects_31: 1730642724
+      spring and summer objects_11: 1707487600
+      spring and summer objects_45: -660192107
+      spring and summer objects_15: 102133865
+      spring and summer objects_13: 627629205
+      spring and summer objects_36: 304100642
+      spring and summer objects_21: 1130003558
+      spring and summer objects_35: -1823968395
+      spring and summer objects_14: 737205712
+      spring and summer objects_34: 123402800
+      spring and summer objects_52: 2121399737
+      spring and summer objects_42: 1076796825
+      spring and summer objects_48: 1451002199
+      spring and summer objects_40: -1304216680
+      spring and summer objects_32: -1599561657
+      spring and summer objects_53: 1020670150
+      spring and summer objects_54: 1356892796
+      spring and summer objects_1: -169193490
+      spring and summer objects_29: 2082204641
+      spring and summer objects_41: -1511372020
+      spring and summer objects_26: 646350649
+      spring and summer objects_39: 2025960896
+      spring and summer objects_9: 1318530249
+      spring and summer objects_50: 1005351968
+      spring and summer objects_19: -1408501026
+      spring and summer objects_17: 1963675687
+      spring and summer objects_38: 384031070
+      spring and summer objects_22: -1092740599
+      spring and summer objects_43: -761346476
+      spring and summer objects_25: 1002783195
+      spring and summer objects_2: 526836477
+      spring and summer objects_23: -750020948
+      spring and summer objects_30: 2059557027
+      spring and summer objects_4: 1319861836
+      spring and summer objects_0: 109957210
+      spring and summer objects_27: -699040349
+      spring and summer objects_28: -646987816
+      spring and summer objects_33: -1998534025
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

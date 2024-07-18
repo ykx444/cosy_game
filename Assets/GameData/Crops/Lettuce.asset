@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e94c7b8a927d617499da006722d5f753, type: 3}
+  m_Name: Lettuce
+  m_EditorClassIdentifier: 
+  timeToGrow: 5
+  yield: {fileID: 11400000, guid: 074c5a699da12e14cad0371ffb063477, type: 2}
+  count: 3
+  seedDropRate: 0.8
+  seedDropCount: 1
+  sprites:
+  - {fileID: -1248197460, guid: 1720243bba678bd4cb19f8430880765e, type: 3}
+  - {fileID: 273765833, guid: 1720243bba678bd4cb19f8430880765e, type: 3}
+  - {fileID: -318649152, guid: 1720243bba678bd4cb19f8430880765e, type: 3}
+  - {fileID: -469942687, guid: 1720243bba678bd4cb19f8430880765e, type: 3}
+  - {fileID: 1748730683, guid: 1720243bba678bd4cb19f8430880765e, type: 3}
+  growStageTime: 0100000002000000030000000400000005000000

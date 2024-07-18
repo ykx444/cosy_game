@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c00aa152668390f479e2303637de73c7, type: 3}
+  m_Name: 1-1
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: Lyn
+    characterSprite: {fileID: 21300000, guid: f275146197b24bc4597f7fc3bc7ef6c6, type: 3}
+    sentence: Don't give me that confused look, you seriously did not lose your memory
+      like the typical adventure game protagonist, right? Right?
+    triggerChoice: 0
+  - characterName: You
+    characterSprite: {fileID: 21300000, guid: 82b3e58a9e899d84b8e3f71e3cf484d2, type: 3}
+    sentence: (nods)
+    triggerChoice: 0
+  - characterName: Lyn
+    characterSprite: {fileID: 21300000, guid: c42f91e8179ff5a4fa165298eec0a9e8, type: 3}
+    sentence: ...
+    triggerChoice: 0
+  - characterName: Lyn
+    characterSprite: {fileID: 21300000, guid: f275146197b24bc4597f7fc3bc7ef6c6, type: 3}
+    sentence: Don't worry, let's start from beginning. First line from the handbook,
+      if a witch cannot farm then she is not a good alchemist. Pretty self explanatory
+      right? Let's start by farming.
+    triggerChoice: 0
+  - characterName: Lyn
+    characterSprite: {fileID: 21300000, guid: f275146197b24bc4597f7fc3bc7ef6c6, type: 3}
+    sentence: Also the house behind you is also yours for now, do pay a visit when
+      you are done exploring.
+    triggerChoice: 0
+  choices: []
+  hasTutorial: 1

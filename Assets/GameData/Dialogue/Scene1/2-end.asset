@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c00aa152668390f479e2303637de73c7, type: 3}
+  m_Name: 2-end
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: Lyn
+    characterSprite: {fileID: 21300000, guid: 96b83bc3876bc0247a16a7c7699d0c1a, type: 3}
+    sentence: To me, it is about earning money! Farm and use those crops to make
+      potions and sell to people. Believe that you are special, not everyone can
+      operate a cauldron!
+    triggerChoice: 0
+  - characterName: Lyn
+    characterSprite: {fileID: 21300000, guid: f275146197b24bc4597f7fc3bc7ef6c6, type: 3}
+    sentence: So, you can run your shop everyday until 22:00, and you need to sell
+      people your products, some may be a little impatient so they may leave, but
+      it's their loss anyway.
+    triggerChoice: 0
+  - characterName: Lyn
+    characterSprite: {fileID: 21300000, guid: 96b83bc3876bc0247a16a7c7699d0c1a, type: 3}
+    sentence: That wraps up everything you need to know about being a witch for now!
+      Good luck! I will be coming around if there is any news about your guardian.
+    triggerChoice: 0
+  choices: []
+  hasTutorial: 1
+  nextDialogue: {fileID: 0}
