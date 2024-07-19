@@ -1,3 +1,4 @@
+using Content.Source.DataInformation;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -129,7 +130,17 @@ public class QuestionnaireManager : MonoBehaviour
         int tmdScore = tensionAnxietyScore + depressionDejectionScore + angerHostilityScore
                        + fatigueInertiaScore + confusionBewildermentScore - vigorActivityScore;
 
-
+        //package them into trial record to send
+        if (!LevelManager.instance.isMainGameReached)
+            LevelManager.instance.CurrentTrialRecord.TrialType = 0;
+        else LevelManager.instance.CurrentTrialRecord.TrialType = 1;
+        LevelManager.instance.CurrentTrialRecord.TensionAnxietyScore = tensionAnxietyScore;
+        LevelManager.instance.CurrentTrialRecord.DepressionDejectionScore = depressionDejectionScore;
+        LevelManager.instance.CurrentTrialRecord.AngerHostilityScore = angerHostilityScore;
+        LevelManager.instance.CurrentTrialRecord.VigorActivityScore = vigorActivityScore;
+        LevelManager.instance.CurrentTrialRecord.FatigueInertiaScore = fatigueInertiaScore;
+        LevelManager.instance.CurrentTrialRecord.ConfusionBewildermentScore = confusionBewildermentScore;
+        LevelManager.instance.CurrentTrialRecord.TotalMoodDisturbanceScore = tmdScore;
     }
 
     // Function to check if any row is incomplete
@@ -158,6 +169,12 @@ public class QuestionnaireManager : MonoBehaviour
         {
             CalculateScores();
             //************SUBMIT TO BOFS
+            BofWriter writer = new BofWriter("http://127.0.0.1:5000");
+
+            ListPrintable[] trialsToWrite = new ListPrintable[] { LevelManager.instance.CurrentTrialRecord };
+            StartCoroutine(writer.WriteTrialsIntoCsvFile(trialsToWrite, "/sassignment_recordtrial_"));
+            //END OF POST
+
             //GET THE SCENE NUMBER FROM BOFS
             if (!LevelManager.instance.isMainGameReached) //whether player has played the game
                 SceneManager.LoadScene("Title"); //start
@@ -170,27 +187,4 @@ public class QuestionnaireManager : MonoBehaviour
     {
         alertDialogue.SetActive(show);
     }
-}
-
-[System.Serializable]
-public class POMSData
-{
-    public int gameLevel;
-
-    public int tensionAnxietyScore;
-    public int depressionDejectionScore;
-    public int angerHostilityScore;
-    public int fatigueInertiaScore;
-    public int confusionBewildermentScore;
-    public int totalMoodDisturbanceScore;
-}
-
-[System.Serializable] 
-public class QuestionnaireData
-{
-    public string ageRange;
-    public string gender;
-    public string occupationStatus;
-    public string gameFrequency;
-    public string cosyExperience;
 }

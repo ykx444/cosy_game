@@ -77,7 +77,7 @@ public class QuestionManager : MonoBehaviour
             int randomNumber = Random.Range(0, 2); // Randomly choose between Math (0) or Color Recognition (1)
             questionType = randomNumber;
         }
-     
+
 
         switch (questionType)
         {
@@ -134,8 +134,23 @@ public class QuestionManager : MonoBehaviour
                 },
                 gridButtons,
                 verifyButton
-            )
+            ),
             // Add more ReCaptcha questions here
+            new ReCaptchaQuestion(
+                  questionText,
+                  gridButtonTransform,
+                   gridButtonPrefab,
+                "Tap on all the grids that have lamp post and click verify button",
+                Resources.Load<Sprite>("Images/trafficlight"),
+                new bool[,]
+                {
+                    { true, false, false },
+                    { true, true, false },
+                    { true, true, false }
+                },
+                gridButtons,
+                verifyButton
+                ),
         };
     }
 

@@ -94,16 +94,12 @@ public class ReCaptchaQuestion : Question
 
     public override void HandleTimeExpired()
     {
-        // Check the answers when the time expires
-        bool isCorrect = CheckAnswers();
-        base.answered = true;
-        // Trigger the GameController to handle the result
-        GameObject.FindObjectOfType<QuestionManager>().CheckAnswer(isCorrect);
-        RemoveButtons();
+        VerifyAnswers();
     }
 
     private bool CheckAnswers()
     {
+
         for (int i = 0; i < gridButtons.GetLength(0); i++)
         {
             for (int j = 0; j < gridButtons.GetLength(1); j++)
@@ -125,19 +121,26 @@ public class ReCaptchaQuestion : Question
 
     private void VerifyAnswers()
     {
-        bool isCorrect = CheckAnswers();
-        base.answered = true;
-        // Trigger the GameController to handle the result
-        GameObject.FindObjectOfType<QuestionManager>().CheckAnswer(isCorrect);
-     
+        if (!answered) //prevent this was called twice
+        {
+            // Check the answers when the time expires
+            bool isCorrect = CheckAnswers();
+            base.answered = true;
+            // Trigger the GameController to handle the result
+            GameObject.FindObjectOfType<QuestionManager>().CheckAnswer(isCorrect);
+            RemoveButtons();
+        }
     }
 
     private void RemoveButtons()
     {
+
         foreach (Transform child in buttonContainer.transform)
         {
             child.gameObject.SetActive(false);
+            GameObject.Destroy(child.gameObject);
         }
+
     }
 
     public override bool CheckAnswer(string answer)

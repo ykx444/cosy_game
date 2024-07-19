@@ -1,3 +1,4 @@
+using Content.Source.DataInformation;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -19,13 +20,26 @@ public class LevelManager : MonoBehaviour
     int defaultLoadingInCaseOfError = 0;
 
     float timeElapsed;
+
+    [SerializeField] TrialRecord currentTrial = new TrialRecord();
+
+    public TrialRecord CurrentTrialRecord
+    {
+        get
+        {
+            return currentTrial;
+
+        }
+        set { }
+    }
+
     public int LevelNum
     {
         get { return levelNum; }
     }
 
     //BOFS
-    private string apiURL = "http://127.0.0.1:5001/get-condition";
+    private string apiURL = "http://127.0.0.1:5000";
     private void Awake()
     {
         instance = this;
@@ -34,7 +48,7 @@ public class LevelManager : MonoBehaviour
 
     private void Start()
     {
-        // StartCoroutine(GetLevelFromServer());
+        StartCoroutine(RequestInformation("/ fetch_condition"));
         timer = new Stopwatch();
     }
 
@@ -54,13 +68,13 @@ public class LevelManager : MonoBehaviour
     }
 
 
-    private IEnumerator RequestConditionOfExperiment()
+    public IEnumerator RequestInformation(string requestString)
     {
         UnityEngine.Debug.Log("REQUEST");
         yield return new WaitForSeconds(0.001f);
         int selectedCondition = defaultLoadingInCaseOfError; // Go to Basic mode
                                                              // We don't need to wait for this request, since we use only one condition in the experiment
-        UnityWebRequest request = new UnityWebRequest(String.Concat(apiURL, "/fetch_condition"));
+        UnityWebRequest request = new UnityWebRequest(String.Concat(apiURL, requestString));
         request.downloadHandler = new DownloadHandlerBuffer();
         request.SendWebRequest();
         while (!request.isDone)
@@ -73,10 +87,18 @@ public class LevelManager : MonoBehaviour
             try
             {
                 string result = request.downloadHandler.text;
-                //FindObjectOfType<PrintConditionID>().PrintCondition(result);
-                string output = string.Concat(result.Where(Char.IsDigit));
-                int id = Int32.Parse(output);
-                selectedCondition = id - 1;
+                // Parse the JSON response
+                var responseData = JsonUtility.FromJson<ConditionResponse>(result);
+                if (responseData != null)
+                {
+                    UnityEngine.Debug.Log("Participant ID: " + responseData.participantID);
+                    UnityEngine.Debug.Log("Condition: " + responseData.condition);
+
+                    selectedCondition = responseData.condition - 1;
+                    levelNum = selectedCondition;
+                    currentTrial.UserId = responseData.participantID.ToString();
+                    currentTrial.Condition = levelNum.ToString();
+                }
             }
             catch (Exception e)
             {
@@ -86,20 +108,13 @@ public class LevelManager : MonoBehaviour
         }
     }
 
-    private void ProcessLevelResponse(string jsonResponse)
+
+    [Serializable]
+    public class ConditionResponse
     {
-        int levelNum = JsonUtility.FromJson<LevelResponse>(jsonResponse).levelNum;
-        this.levelNum = levelNum;
+        public int participantID;
+        public int condition;
     }
 }
 
 
-
-
-
-
-[System.Serializable]
-public class LevelResponse
-{
-    public int levelNum;
-}
